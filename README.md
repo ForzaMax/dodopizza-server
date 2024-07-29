@@ -19,9 +19,9 @@
    mongod
    ```
 
-#### Установите MongoDB Compass (необязательно)
+#### Установите MongoDB Compass
 
-**\*MongoDB Compass** - это графический интерфейс для работы с MongoDB. Он поможет вам визуально управлять базой данных.
+**MongoDB Compass** - это графический интерфейс для работы с MongoDB. Он поможет вам визуально управлять базой данных.
 
 1. Перейдите на [MongoDB Compass Download Page](https://www.mongodb.com/try/download/compass).
 2. Скачайте и установите MongoDB Compass.
