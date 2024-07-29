@@ -1,0 +1,17 @@
+[{
+  "_id": {
+    "$oid": "66a7a5246893121b0344370a"
+  },
+  "currency": "RUB",
+  "currentMonthRevenue": {
+    "$numberLong": "7638415294"
+  },
+  "previousMonthRevenue": {
+    "$numberLong": "8189658037"
+  },
+  "workingPizzerias": 1100,
+  "countries": 22,
+  "previousYearRevenue": {
+    "$numberLong": "8189658037"
+  }
+}]

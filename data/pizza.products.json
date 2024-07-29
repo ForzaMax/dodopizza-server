@@ -1,0 +1,446 @@
+[{
+  "_id": {
+    "$oid": "66a7a14d6893121b034436ec"
+  },
+  "name": "Пицца из половинок",
+  "price": 600,
+  "description": "Соберите свою пиццу 35 см с двумя разными вкусами",
+  "ingredients": [],
+  "imageUrl": "/public/images/halfpizzas.webp",
+  "category": "pizza",
+  "categoryRu": "Пицца",
+  "collect": true,
+  "isPopular": false
+},
+{
+  "_id": {
+    "$oid": "66a7a14d6893121b034436ed"
+  },
+  "name": "Пепперони-сердце",
+  "price": 625,
+  "description": "Пикантная пепперони, моцарелла, томатный соус",
+  "ingredients": [
+    "Пикантная пепперони",
+    "моцарелла",
+    "томатный соус"
+  ],
+  "imageUrl": "/public/images/pepperoni-heart.webp",
+  "category": "pizza",
+  "categoryRu": "Пицца",
+  "collect": false,
+  "isPopular": false
+},
+{
+  "_id": {
+    "$oid": "66a7a14d6893121b034436ee"
+  },
+  "name": "Пирог-сердце",
+  "price": 625,
+  "description": "Ананасы, брусника, сгущенное молоко",
+  "ingredients": [
+    "Ананасы",
+    "брусника",
+    "сгущенное молоко"
+  ],
+  "imageUrl": "/public/images/pie-heart.webp",
+  "category": "pizza",
+  "categoryRu": "Пицца",
+  "collect": false,
+  "isPopular": false
+},
+{
+  "_id": {
+    "$oid": "66a7a14d6893121b034436ef"
+  },
+  "name": "Чизи чеддер",
+  "price": 625,
+  "description": "Ветчина, сыр чеддер, сладкий перец, моцарелла, томатный соус, чеснок, итальянские травы",
+  "ingredients": [
+    "Ветчина",
+    "сыр чеддер",
+    "сладкий перец",
+    "моцарелла",
+    "томатный соус",
+    "чеснок",
+    "итальянские травы"
+  ],
+  "imageUrl": "/public/images/cheesy-cheeder.webp",
+  "category": "pizza",
+  "categoryRu": "Пицца",
+  "collect": false,
+  "isPopular": false
+},
+{
+  "_id": {
+    "$oid": "66a7a14d6893121b034436f0"
+  },
+  "name": "Цыпленок блю чиз",
+  "price": 445,
+  "description": "Цыпленок, сыр блю чиз, томаты, моцарелла, соус альфредо",
+  "ingredients": [
+    "Цыпленок",
+    "сыр блю чиз",
+    "томаты",
+    "моцарелла",
+    "соус альфредо"
+  ],
+  "imageUrl": "/public/images/chicken-blue-cheese.webp",
+  "category": "pizza",
+  "categoryRu": "Пицца",
+  "collect": false,
+  "isPopular": false
+},
+{
+  "_id": {
+    "$oid": "66a7a14d6893121b034436f1"
+  },
+  "name": "Нежный лосось",
+  "price": 495,
+  "description": "Лосось, томаты черри, соус песто, моцарелла, соус альфредо",
+  "ingredients": [
+    "Лосось",
+    "томаты черри",
+    "соус песто",
+    "моцарелла",
+    "соус альфредо"
+  ],
+  "imageUrl": "/public/images/tender-salmon.webp",
+  "category": "pizza",
+  "categoryRu": "Пицца",
+  "collect": false,
+  "isPopular": true
+},
+{
+  "_id": {
+    "$oid": "66a7a14d6893121b034436f2"
+  },
+  "name": "Сырная",
+  "price": 245,
+  "description": "Увеличенная порция моцареллы, сыр чеддер и пармезан, соус альфредо",
+  "ingredients": [
+    "Увеличенная порция моцареллы",
+    "сыр чеддер и пармезан",
+    "соус альфредо"
+  ],
+  "imageUrl": "/public/images/cheese.webp",
+  "category": "pizza",
+  "categoryRu": "Пицца",
+  "collect": false,
+  "isPopular": false
+},
+{
+  "_id": {
+    "$oid": "66a7a14d6893121b034436f3"
+  },
+  "name": "Пепперони фреш",
+  "price": 245,
+  "description": "Пикантная пепперони, увеличенная порция моцареллы, томаты, томатный соус",
+  "ingredients": [
+    "Пикантная пепперони",
+    "увеличенная порция моцареллы",
+    "томаты",
+    "томатный соус"
+  ],
+  "imageUrl": "/public/images/pepperoni-fresh.webp",
+  "category": "pizza",
+  "categoryRu": "Пицца",
+  "collect": false,
+  "isPopular": false
+},
+{
+  "_id": {
+    "$oid": "66a7a14d6893121b034436f4"
+  },
+  "name": "Комбо за 599 Р",
+  "price": 599,
+  "description": "Наш хит «Додстер» или другая пицца 25 см. Додстер, напиток и соус",
+  "ingredients": [],
+  "imageUrl": "/public/images/combo.webp",
+  "category": "combo",
+  "categoryRu": "Комбо",
+  "collect": true,
+  "isPopular": false
+},
+{
+  "_id": {
+    "$oid": "66a7a14d6893121b034436f5"
+  },
+  "name": "2 пиццы",
+  "price": 899,
+  "description": "Самое популярное комбо из 2 пицц 30 см. Большой выбор",
+  "ingredients": [],
+  "imageUrl": "/public/images/combo.webp",
+  "category": "combo",
+  "categoryRu": "Комбо",
+  "collect": true,
+  "isPopular": true
+},
+{
+  "_id": {
+    "$oid": "66a7a14d6893121b034436f6"
+  },
+  "name": "2 пиццы и закуска",
+  "price": 799,
+  "description": "2 пиццы 25 см и закуска на выбор. Для компании из 2–4 человек",
+  "ingredients": [],
+  "imageUrl": "/public/images/combo.webp",
+  "category": "combo",
+  "categoryRu": "Комбо",
+  "collect": true,
+  "isPopular": false
+},
+{
+  "_id": {
+    "$oid": "66a7a14d6893121b034436f7"
+  },
+  "name": "Пицца и 2 закуски",
+  "price": 799,
+  "description": "Пицца 30 см и 2 закуски на выбор. Для компании из 2–4 человек",
+  "ingredients": [],
+  "imageUrl": "/public/images/combo.webp",
+  "category": "combo",
+  "categoryRu": "Комбо",
+  "collect": true,
+  "isPopular": false
+},
+{
+  "_id": {
+    "$oid": "66a7a14d6893121b034436f8"
+  },
+  "name": "Комбо за 999 Р",
+  "price": 999,
+  "description": "3 пиццы 30 см на тонком тесте по суперцене. Выбор пицц ограничен",
+  "ingredients": [],
+  "imageUrl": "/public/images/combo999.webp",
+  "category": "combo",
+  "categoryRu": "Комбо",
+  "collect": true,
+  "isPopular": false
+},
+{
+  "_id": {
+    "$oid": "66a7a14d6893121b034436f9"
+  },
+  "name": "Томатный суп с гренками",
+  "price": 99,
+  "description": "Горячий суп с пшеничными гренками на основе фирменного соуса из итальянских томатов",
+  "ingredients": [],
+  "imageUrl": "/public/images/tomato-soup.webp",
+  "category": "snack",
+  "categoryRu": "Закуски",
+  "collect": false,
+  "isPopular": false
+},
+{
+  "_id": {
+    "$oid": "66a7a14d6893121b034436fa"
+  },
+  "name": "Томатный суп с митболами",
+  "price": 149,
+  "description": "Горячий суп с митболами из говядины и маслинами на основе фирменного соуса из итальянских томатов",
+  "ingredients": [],
+  "imageUrl": "/public/images/tomato-soup.webp",
+  "category": "snack",
+  "categoryRu": "Закуски",
+  "collect": false,
+  "isPopular": false
+},
+{
+  "_id": {
+    "$oid": "66a7a14d6893121b034436fb"
+  },
+  "name": "Додстер",
+  "price": 159,
+  "description": "Легендарная горячая закуска с цыпленком, томатами, моцареллой, соусом ранч в тонкой пшеничной лепешке",
+  "ingredients": [
+    "Цыпленок",
+    "томаты",
+    "моцарелла",
+    "соус ранч"
+  ],
+  "imageUrl": "/public/images/dodster.webp",
+  "category": "snack",
+  "categoryRu": "Закуски",
+  "collect": false,
+  "isPopular": false
+},
+{
+  "_id": {
+    "$oid": "66a7a14d6893121b034436fc"
+  },
+  "name": "Острый Додстер",
+  "price": 159,
+  "description": "Горячая закуска с острыми цыпленком, перцем халапеньо, солеными огурчиками, томатами, моцареллой и соусом барбекю в тонкой пшеничной лепешке",
+  "ingredients": [
+    "Цыпленок",
+    "перец халапеньо",
+    "соленые огурчики",
+    "томаты",
+    "моцарелла",
+    "соус барбекю"
+  ],
+  "imageUrl": "/public/images/spicy-dodster.webp",
+  "category": "snack",
+  "categoryRu": "Закуски",
+  "collect": false,
+  "isPopular": true
+},
+{
+  "_id": {
+    "$oid": "66a7a14d6893121b034436fd"
+  },
+  "name": "Додстер Чипотле",
+  "price": 159,
+  "description": "Горячая закуска с пикантным соусом чипотле из копченых перчиков, цыпленком, томатами, моцареллой в тонкой пшеничной лепешке",
+  "ingredients": [
+    "Цыпленок",
+    "соус чипотле",
+    "томаты",
+    "моцарелла"
+  ],
+  "imageUrl": "/public/images/dodster-chipotle.webp",
+  "category": "snack",
+  "categoryRu": "Закуски",
+  "collect": false,
+  "isPopular": false
+},
+{
+  "_id": {
+    "$oid": "66a7a14d6893121b034436fe"
+  },
+  "name": "Яблочный пирог",
+  "price": 99,
+  "description": "Десерт из песочного теста с яблочной начинкой. Может содержать изюм",
+  "ingredients": [],
+  "imageUrl": "/public/images/apple-pie.webp",
+  "category": "dessert",
+  "categoryRu": "Десерты",
+  "collect": false,
+  "isPopular": false
+},
+{
+  "_id": {
+    "$oid": "66a7a14d6893121b034436ff"
+  },
+  "name": "Чизкейк Нью-Йорк",
+  "price": 149,
+  "description": "Классический американский творожный десерт",
+  "ingredients": [],
+  "imageUrl": "/public/images/cheesecake.webp",
+  "category": "dessert",
+  "categoryRu": "Десерты",
+  "collect": false,
+  "isPopular": true
+},
+{
+  "_id": {
+    "$oid": "66a7a14d6893121b03443700"
+  },
+  "name": "Фонданы, 2 шт",
+  "price": 159,
+  "description": "Для десерта с хрустящей корочкой и теплой шоколадной начинкой",
+  "ingredients": [],
+  "imageUrl": "/public/images/fondues.webp",
+  "category": "dessert",
+  "categoryRu": "Десерты",
+  "collect": false,
+  "isPopular": false
+},
+{
+  "_id": {
+    "$oid": "66a7a14d6893121b03443701"
+  },
+  "name": "Молочный коктейль с печеньем Орео",
+  "price": 159,
+  "description": "Напиток из молока и мороженого с добавлением дробленого печенья «Орео»",
+  "ingredients": [],
+  "imageUrl": "/public/images/milkshake.webp",
+  "category": "dessert",
+  "categoryRu": "Десерты",
+  "collect": false,
+  "isPopular": false
+},
+{
+  "_id": {
+    "$oid": "66a7a14d6893121b03443702"
+  },
+  "name": "Классический молочный коктейль",
+  "price": 159,
+  "description": "Напиток из молока и мороженого",
+  "ingredients": [],
+  "imageUrl": "/public/images/milkshake.webp",
+  "category": "dessert",
+  "categoryRu": "Десерты",
+  "collect": false,
+  "isPopular": false
+},
+{
+  "_id": {
+    "$oid": "66a7a14d6893121b03443703"
+  },
+  "name": "2 Coca-Cola по суперцене",
+  "price": 99,
+  "description": "Две классические Coca-Cola по 0,5 литра по выгодной цене",
+  "ingredients": [],
+  "imageUrl": "/public/images/cocacoladouble.webp",
+  "category": "drink",
+  "categoryRu": "Напитки",
+  "collect": false,
+  "isPopular": false
+},
+{
+  "_id": {
+    "$oid": "66a7a14d6893121b03443704"
+  },
+  "name": "Coca-Cola Orange",
+  "price": 149,
+  "description": "Coca-Cola Orange 0.5л",
+  "ingredients": [],
+  "imageUrl": "/public/images/cocacola-orange.webp",
+  "category": "drink",
+  "categoryRu": "Напитки",
+  "collect": false,
+  "isPopular": false
+},
+{
+  "_id": {
+    "$oid": "66a7a14d6893121b03443705"
+  },
+  "name": "Coca-Cola Zero",
+  "price": 159,
+  "description": "Coca-Cola Zero 0.5л",
+  "ingredients": [],
+  "imageUrl": "/public/images/cocacola-zero.webp",
+  "category": "drink",
+  "categoryRu": "Напитки",
+  "collect": false,
+  "isPopular": false
+},
+{
+  "_id": {
+    "$oid": "66a7a14d6893121b03443706"
+  },
+  "name": "Coca-Cola",
+  "price": 159,
+  "description": "Coca-Cola 0.5л",
+  "ingredients": [],
+  "imageUrl": "/public/images/cocacola.webp",
+  "category": "drink",
+  "categoryRu": "Напитки",
+  "collect": false,
+  "isPopular": false
+},
+{
+  "_id": {
+    "$oid": "66a7a14d6893121b03443707"
+  },
+  "name": "Coca-Cola Vanilla",
+  "price": 159,
+  "description": "Coca-Cola Vanilla 0.5л",
+  "ingredients": [],
+  "imageUrl": "/public/images/cocacola-vanilla.webp",
+  "category": "drink",
+  "categoryRu": "Напитки",
+  "collect": false,
+  "isPopular": false
+}]

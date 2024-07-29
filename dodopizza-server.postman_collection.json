@@ -1,0 +1,56 @@
+{
+	"info": {
+		"_postman_id": "c33dfa24-7b98-419e-92f6-7931e3cc913e",
+		"name": "dodopizza-server",
+		"description": "### Документация API\n\n#### Базовый URL\n\n``` markdown\nhttp://localhost:5000 //Выставляется в server.js\n\n ```\n\n---\n\n### Endpoints\n\n#### 1\\. Получить все продукты\n\n**Эндпоинт**: `/products`\n\n**Метод**: `GET`\n\n**Описание**: Возвращает все продукты.\n\n**Пример ответа**:\n\n``` json\n[\n  {\n    \"name\": \"Пицца из половинок\",\n    \"price\": 600,\n    \"description\": \"Соберите свою пиццу 35 см с двумя разными вкусами\",\n    \"ingredients\": [],\n    \"imageUrl\": \"/public/images/halfpizzas.webp\",\n    \"category\": \"pizza\",\n    \"categoryRu\": \"Пицца\",\n    \"collect\": true,\n    \"isPopular\": false\n  },\n  // ... другие продукты\n]\n\n ```\n\n---\n\n#### 2\\. Получить продукты по категории\n\n**Эндпоинт**: `/products/category/:category`\n\n**Метод**: `GET`\n\n**Описание**: Возвращает продукты, отфильтрованные по категории.\n\n**Параметры пути**:\n\n- `:category` (строка) - Категория продуктов (например, `pizza`, `combo`, `snack`, `dessert`, `drink`).\n    \n\n**Пример ответа**:\n\n``` json\n[\n  {\n    \"name\": \"Пепперони-сердце\",\n    \"price\": 625,\n    \"description\": \"Пикантная пепперони, моцарелла, томатный соус\",\n    \"ingredients\": [\"Пикантная пепперони\", \"моцарелла\", \"томатный соус\"],\n    \"imageUrl\": \"/public/images/pepperoni-heart.webp\",\n    \"category\": \"pizza\",\n    \"categoryRu\": \"Пицца\",\n    \"collect\": false,\n    \"isPopular\": false\n  },\n  // ... другие продукты в той же категории\n]\n\n ```\n\n---\n\n#### 3\\. Получить продукт по ID\n\n**Эндпоинт**: `/products/:id`\n\n**Метод**: `GET`\n\n**Описание**: Возвращает один продукт по его ID.\n\n**Параметры пути**:\n\n- `:id` (строка) - ID продукта.\n    \n\n**Пример ответа**:\n\n``` json\n{\n  \"name\": \"Пепперони-сердце\",\n  \"price\": 625,\n  \"description\": \"Пикантная пепперони, моцарелла, томатный соус\",\n  \"ingredients\": [\"Пикантная пепперони\", \"моцарелла\", \"томатный соус\"],\n  \"imageUrl\": \"/public/images/pepperoni-heart.webp\",\n  \"category\": \"pizza\",\n  \"categoryRu\": \"Пицца\",\n  \"collect\": false,\n  \"isPopular\": false\n}\n\n ```\n\n---\n\n#### 4\\. Получить популярные продукты\n\n**Эндпоинт**: `/products/popular`\n\n**Метод**: `GET`\n\n**Описание**: Возвращает популярные продукты.\n\n**Пример ответа**:\n\n``` json\n[\n  {\n    \"name\": \"Нежный лосось\",\n    \"price\": 495,\n    \"description\": \"Лосось, томаты черри, соус песто, моцарелла, соус альфредо\",\n    \"ingredients\": [\"Лосось\", \"томаты черри\", \"соус песто\", \"моцарелла\", \"соус альфредо\"],\n    \"imageUrl\": \"/public/images/tender-salmon.webp\",\n    \"category\": \"pizza\",\n    \"categoryRu\": \"Пицца\",\n    \"collect\": false,\n    \"isPopular\": true\n  },\n  // ... другие популярные продукты\n]\n\n ```\n\n---\n\n#### 5\\. Получить статистику\n\n**Эндпоинт**: `/statistics`\n\n**Метод**: `GET`\n\n**Описание**: Возвращает статистические данные для системы заказа пиццы.\n\n**Пример ответа**:\n\n``` json\n{\n  \"currency\": \"RUB\",\n  \"currentMonthRevenue\": 7638415294,\n  \"previousMonthRevenue\": 8189658037,\n  \"workingPizzerias\": 1100,\n  \"countries\": 22,\n  \"previousYearRevenue\": 8189658037\n}\n\n ```",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "34254292"
+	},
+	"item": [
+		{
+			"name": "Get Statistics",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"description": "#### Получить статистику\n\n**Эндпоинт**: `/statistics`\n\n**Метод**: `GET`\n\n**Описание**: Возвращает статистические данные для системы заказа пиццы.\n\n**Пример ответа**:\n\n``` json\n{\n  \"currency\": \"RUB\",\n  \"currentMonthRevenue\": 7638415294,\n  \"previousMonthRevenue\": 8189658037,\n  \"workingPizzerias\": 1100,\n  \"countries\": 22,\n  \"previousYearRevenue\": 8189658037\n}\n\n ```"
+			},
+			"response": []
+		},
+		{
+			"name": "Get Products",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"description": "#### Получить все продукты\n\n**Эндпоинт**: `/products`\n\n**Метод**: `GET`\n\n**Описание**: Возвращает все продукты.\n\n**Пример ответа**:\n\n``` json\n[\n  {\n    \"name\": \"Пицца из половинок\",\n    \"price\": 600,\n    \"description\": \"Соберите свою пиццу 35 см с двумя разными вкусами\",\n    \"ingredients\": [],\n    \"imageUrl\": \"/public/images/halfpizzas.webp\",\n    \"category\": \"pizza\",\n    \"categoryRu\": \"Пицца\",\n    \"collect\": true,\n    \"isPopular\": false\n  },\n  // ... другие продукты\n]\n\n ```"
+			},
+			"response": []
+		},
+		{
+			"name": "Get Category",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"description": "#### Получить продукты по категории\n\n**Эндпоинт**: `/products/category/:category`\n\n**Метод**: `GET`\n\n**Описание**: Возвращает продукты, отфильтрованные по категории.\n\n**Параметры пути**:\n\n- `:category` (строка) - Категория продуктов (например, `pizza`, `combo`, `snack`, `dessert`, `drink`).\n    \n\n**Пример ответа**:\n\n``` json\n[\n  {\n    \"name\": \"Пепперони-сердце\",\n    \"price\": 625,\n    \"description\": \"Пикантная пепперони, моцарелла, томатный соус\",\n    \"ingredients\": [\"Пикантная пепперони\", \"моцарелла\", \"томатный соус\"],\n    \"imageUrl\": \"/public/images/pepperoni-heart.webp\",\n    \"category\": \"pizza\",\n    \"categoryRu\": \"Пицца\",\n    \"collect\": false,\n    \"isPopular\": false\n  },\n  // ... другие продукты в той же категории\n]\n\n ```"
+			},
+			"response": []
+		},
+		{
+			"name": "Get ProductById",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"description": "#### Получить продукт по ID\n\n**Эндпоинт**: `/products/:id`\n\n**Метод**: `GET`\n\n**Описание**: Возвращает один продукт по его ID.\n\n**Параметры пути**:\n\n- `:id` (строка) - ID продукта.\n    \n\n**Пример ответа**:\n\n``` json\n{\n  \"name\": \"Пепперони-сердце\",\n  \"price\": 625,\n  \"description\": \"Пикантная пепперони, моцарелла, томатный соус\",\n  \"ingredients\": [\"Пикантная пепперони\", \"моцарелла\", \"томатный соус\"],\n  \"imageUrl\": \"/public/images/pepperoni-heart.webp\",\n  \"category\": \"pizza\",\n  \"categoryRu\": \"Пицца\",\n  \"collect\": false,\n  \"isPopular\": false\n}\n\n ```"
+			},
+			"response": []
+		},
+		{
+			"name": "Get Popular Products",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"description": "#### олучить популярные продукты\n\n**Эндпоинт**: `/products/popular`\n\n**Метод**: `GET`\n\n**Описание**: Возвращает популярные продукты.\n\n**Пример ответа**:\n\n``` json\n[\n  {\n    \"name\": \"Нежный лосось\",\n    \"price\": 495,\n    \"description\": \"Лосось, томаты черри, соус песто, моцарелла, соус альфредо\",\n    \"ingredients\": [\"Лосось\", \"томаты черри\", \"соус песто\", \"моцарелла\", \"соус альфредо\"],\n    \"imageUrl\": \"/public/images/tender-salmon.webp\",\n    \"category\": \"pizza\",\n    \"categoryRu\": \"Пицца\",\n    \"collect\": false,\n    \"isPopular\": true\n  },\n  // ... другие популярные продукты\n]\n\n ```\n\n---"
+			},
+			"response": []
+		}
+	]
+}
